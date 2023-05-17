@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "596363418892",
+    "project_id": "movers-company",
+    "storage_bucket": "movers-company.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:596363418892:android:0ff1469c65f0fbd933bd29",
+        "android_client_info": {
+          "package_name": "com.example.moverscompany"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "596363418892-k4rdh7vosjivgjvu1melroa58t7ro289.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyC7v1f7cguZszm3qPoCvytBys7cwUEvrTU"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "596363418892-k4rdh7vosjivgjvu1melroa58t7ro289.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

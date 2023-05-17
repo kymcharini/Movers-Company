@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/img_4"
+    tools:context=".HomeFragment">
+
+    <!-- TODO: Update blank fragment layout -->
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <TextView
+            android:id="@+id/textView"
+            android:layout_width="400dp"
+            android:layout_height="50dp"
+            android:gravity="top|center"
+            android:rotationX="0"
+            android:text="Welcome to Movers Company"
+            android:textColor="#6109FD"
+            android:textSize="25sp" />
+
+
+        <TextView
+            android:id="@+id/txtView"
+            android:layout_width="400dp"
+            android:layout_height="220dp"
+            android:gravity="center|bottom"
+            android:text="Your number one moving company"
+            android:textStyle="bold"
+            android:fontFamily="sans-serif-black"
+            android:textColor="#072BF6"
+            android:textSize="18sp" />
+
+
+        <TextView
+            android:id="@+id/txt_View"
+            android:layout_width="400dp"
+            android:layout_height="240dp"
+            android:layout_marginBottom="-64dp"
+            android:fontFamily="sans-serif-black"
+            android:gravity="center|bottom"
+            android:layout_marginStart="5dp"
+            android:text="We fit all your moving needs"
+            android:textColor="#062BFA"
+            android:textSize="18sp"
+            android:textStyle="bold" />
+
+        <Spinner
+            android:id="@+id/spinner"
+            android:layout_width="401dp"
+            android:layout_height="200dp"
+            android:layout_marginTop="120dp"
+            android:minHeight="230dp"
+            android:outlineSpotShadowColor="@color/colorPrimaryDark"
+            android:outlineAmbientShadowColor="#6506F4"
+            android:paddingTop="180dp" />
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="300dp"
+            android:adjustViewBounds="true"
+            android:foregroundGravity="center"
+            android:layout_marginTop="350dp"
+            android:src="@drawable/image" />
+
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="36dp">
+
+            <com.google.android.material.button.MaterialButton
+                android:id="@+id/btn_maps"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentEnd="true"
+                android:layout_marginTop="650dp"
+                android:text="Google Maps" />
+
+            <com.google.android.material.button.MaterialButton
+                android:id="@+id/btn_log_out"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="bottom"
+                android:layout_marginTop="650dp"
+                android:text="Log Out" />
+
+            <ImageView
+                android:layout_width="500dp"
+                android:layout_height="130dp"
+                android:layout_marginTop="10dp"
+                android:adjustViewBounds="true"
+                android:foregroundGravity="center"
+                android:src="@drawable/img_1" />
+
+
+        </RelativeLayout>
+
+    </RelativeLayout>
+
+
+
+
+</FrameLayout>
